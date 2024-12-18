@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memeify</title>
+</head>
+<body>
+    <div class="h1"><h1>Meme <i>Generator</i></h1></div>
+   
+    <div class="container">
+    <canvas id="canvas"></canvas>
+    <div class="sidebar">
+        <p>Add Image</p>
+        <input type="file" id="file">
+        <div class="group">
+            <textarea placeholder="Type Something" id="text"></textarea>
+            <input type="color" id="color">
+            <button id="addText">Add Text</button>
+        </div>
+        <button id="save">Save</button>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js" integrity="sha512-CeIsOAsgJnmevfCi2C7Zsyy6bQKi43utIjdA87Q0ZY84oDqnI0uwfM9+bKiIkI75lUeI00WG/+uJzOmuHlesMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
